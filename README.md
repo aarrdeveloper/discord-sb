@@ -13,7 +13,7 @@ commands = client.tools()
 channel = 12345678910
 
 
-commands.typing(channel=)# typing Channel
+commands.typing(channel=channel)# typing Channel
 
 
 content = "discord-sb　Sender"
