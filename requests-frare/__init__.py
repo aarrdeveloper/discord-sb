@@ -23,4 +23,4 @@ class selfBot(bot=None):
       threading.Thread(target=requests.get(f"https://discord.com/api/v9/channels/{channel}/typing",headers=headers)).start
     def leave(guild):
       headers={'authorization': token}
-      requests.delete(f"https://discord.com/api/v9/users/@me/guilds/{guild}",headers=headers,proxies=proxy)
+      requests.delete(f"https://discord.com/api/v9/users/@me/guilds/{guild}",headers=headers)
