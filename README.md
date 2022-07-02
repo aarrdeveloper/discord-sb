@@ -4,6 +4,7 @@ Created By AARR
 ```py
 import discord-sb
 
-client = easySelfBot
+client = easyBot(bot=False)#SelfBot
+
 
 ```
