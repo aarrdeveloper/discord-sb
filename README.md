@@ -1,5 +1,7 @@
 # Discord SelfBot
-Created By AARR
+Created By AARR<br>
+次世代のcode。<br>
+discord.pyやpycord、nextcordに依存しません
 # Example
 ```py
 import discord-sb
