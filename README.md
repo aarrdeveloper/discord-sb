@@ -5,6 +5,6 @@ Created By AARR
 import discord-sb
 
 client = easyBot(bot=False)#SelfBot
-
+commands = client.tools()
 
 ```
