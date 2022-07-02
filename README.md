@@ -5,6 +5,7 @@ discord.pyやpycord、nextcordに依存しません
 # Example
 ```py
 import discord-sb
+from discord-sb import *
 
 client = easyBot(bot=False)#SelfBot
 commands = client.tools()
