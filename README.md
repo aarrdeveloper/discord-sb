@@ -8,7 +8,7 @@ import discord-sb
 from discord-sb import *
 
 client = easyBot(bot=False)#SelfBot
-commands = client.tools()
+commands = client.tools(token="TOKEN")
 
 channel = 12345678910
 
